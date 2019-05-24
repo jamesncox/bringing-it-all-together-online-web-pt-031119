@@ -45,8 +45,8 @@ class Dog
       FROM dogs
       WHERE id = ?
       LIMIT 1
-      
     SQL
+    DB[:conn].execute(sql)
   end
   
 end
