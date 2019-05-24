@@ -44,7 +44,7 @@ class Dog
       SELECT * 
       FROM dogs
       WHERE id = ?
-      
+      LIMIT 1
       
     SQL
   end
