@@ -40,7 +40,10 @@ class Dog
   end
   
   def self.find_by_id
-    sql = <<-SQL 
+    sql = <<-SQL
+      SELECT * FROM dogs
+      
+    SQL
   end
   
 end
